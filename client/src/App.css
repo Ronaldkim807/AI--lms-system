@@ -1,0 +1,93 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.course-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.course-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+.achievement-card {
+  padding: 20px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.achievement-card.unlocked {
+  border: 2px solid #28a745;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9f7ef 100%);
+}
+
+.achievement-card.locked {
+  border: 2px solid #dee2e6;
+  opacity: 0.7;
+}
+
+.progress {
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  background-color: #007bff;
+  transition: width 0.6s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.table th {
+  border-top: none;
+  font-weight: 600;
+  color: #495057;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .display-4 {
+    font-size: 2rem;
+  }
+  
+  .display-6 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Loading animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+  animation: fadeIn 0.5s ease-out;
+}
