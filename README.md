@@ -83,4 +83,21 @@ npm start
 The app should open on:
 http://localhost:3000/
 
+
+Usage
+
+Learners: Browse courses, receive AI recommendations, and track learning progress.
+
+Instructors: Add, update, and manage courses, and view learner statistics.
+
+Admins: Manage users and maintain overall system integrity.
+
+Contributing
+
+Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
+
+License
+
+This project is open source under the MIT License.
+
 ## Folder Structure
